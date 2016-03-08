@@ -1,0 +1,17 @@
+{
+  "name": "clovers/session",
+  "description": "Clover SESSION",
+  "keywords": ["php7", "SESSION", "php", "clover"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Clovers\\Session\\": "src/"
+    }
+  }
+}
