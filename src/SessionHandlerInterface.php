@@ -1,4 +1,5 @@
 <?php
+namespace Clovers\Session;
 interface SessionHandlerInterface
 {
     function close();

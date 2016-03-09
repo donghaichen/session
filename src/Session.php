@@ -1,7 +1,10 @@
 <?php
+/**
+ * PHP SESSION Clover ¿ò¼ÜºËÐÄ»á»°
+ * todo Redis
+*/
 
 namespace Clovers\Session;
-use SessionHandlerInterface;
 
 class Session
 {  

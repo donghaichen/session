@@ -1,8 +1,7 @@
 <?php
 
 namespace Clovers\Session\Storage;
-
-use SessionHandlerInterface;
+use Clovers\Session;
 
 class File implements SessionHandlerInterface
 {
