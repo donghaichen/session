@@ -1,23 +1,16 @@
 <?php
 /**
- * PHP SESSION Clover ��ܺ��ĻỰ
+ * Clover SESSION  Clover框架核心会话
  * todo Redis
 */
 
 namespace Clovers\Session;
 
 class Session
-{  
-    /** @var    array   Session configuration. */
+{
     protected $config;
-    
-    /** @var    \Clovers\Session\Flash Flash object. */
     protected $flashdata;
-    
-    /** @var    string  Flash slot name */
     protected $flashslot;
-    
-    /** @var    \SessionHandlerInterface    Session storage. */
     protected $storage;
     
     /**
@@ -25,11 +18,10 @@ class Session
      *
      * @access  public
      *
-     * @param   \SessionHandlerInterface    $storage    (optional)  Session storage
-     * @param   array                       $callback   (optional)  Session configuration
+     * @param  $storage    (optional)  Session storage
+     * @param   array  $callback   (optional)  Session configuration
      */
-    
-    public function __construct(SessionHandlerInterface $storage = null, array $config = array())
+    public function __construct( $storage = null, array $config = [])
     {
         
         $this->storage = $storage;

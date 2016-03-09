@@ -1,5 +1,5 @@
 <?php
-namespace Clovers\Session;
+namespace Clovers\Session\Storage;
 interface SessionHandlerInterface
 {
     function close();

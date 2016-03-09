@@ -1,9 +1,7 @@
 <?php
 
 namespace Clovers\Session\Storage;
-use Clovers\Session;
-
-class File implements SessionHandlerInterface
+class File
 {
     /** @var    string  Path. */
     protected $path;
