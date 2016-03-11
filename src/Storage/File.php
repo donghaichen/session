@@ -1,7 +1,12 @@
 <?php
-
+/**
+ * 文件存储SESSION
+ * User: donghai
+ * Date: 16/3/10
+ * Time: 15:27
+ */
 namespace Clovers\Session\Storage;
-class File
+class File implements SessionHandlerInterface
 {
     /** @var    string  Path. */
     protected $path;
