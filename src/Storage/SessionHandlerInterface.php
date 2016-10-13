@@ -1,4 +1,9 @@
 <?php
+/**
+ * 文件存储SESSION
+ *
+ * @author Donghaichen [<chendongahai888@gmail.com>]
+ */
 namespace Clovers\Session\Storage;
 interface SessionHandlerInterface
 {

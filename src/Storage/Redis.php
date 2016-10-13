@@ -1,9 +1,8 @@
 <?php
 /**
  * Redis存储SESSION
- * User: donghai
- * Date: 16/3/10
- * Time: 15:27
+ *
+ * @author Donghaichen [<chendongahai888@gmail.com>]
  * todo 完善该类
  */
 

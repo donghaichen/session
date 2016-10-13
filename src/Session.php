@@ -1,6 +1,8 @@
 <?php
 /**
  * Clover SESSION  Clover框架核心会话
+ *
+ * @author Donghaichen [<chendongahai888@gmail.com>]
  * todo Redis
 */
 

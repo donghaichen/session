@@ -1,9 +1,8 @@
 <?php
 /**
  * 文件存储SESSION
- * User: donghai
- * Date: 16/3/10
- * Time: 15:27
+ *
+ * @author Donghaichen [<chendongahai888@gmail.com>]
  */
 namespace Clovers\Session\Storage;
 class File implements SessionHandlerInterface

@@ -1,9 +1,8 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: donghai
- * Date: 16/3/10
- * Time: 15:31
+ *
+ * @author Donghaichen [<chendongahai888@gmail.com>]
  * todo 完善该类
  */
 
