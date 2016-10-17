@@ -87,9 +87,9 @@ class File implements SessionHandlerInterface
     public function read($id)
     {
         $data = '';
-        if(file_exists($this->path . '/' . $id) && is_readable($this->path . '/' . $id))
+        if(file_exists($this->path . DS . $id) && is_readable($this->path . DS . $id))
         {
-            $data = (string) file_get_contents($this->path . '/' . $id);
+            $data = (string) file_get_contents($this->path . DS . $id);
         }
         return $data;
     }
@@ -106,7 +106,7 @@ class File implements SessionHandlerInterface
     {
         if(is_writable($this->path))
         {
-            return file_put_contents($this->path . '/' . $id, $data) === false ? false : true;
+            return file_put_contents($this->path . DS . $id, $data) === false ? false : true;
         }
         return false;
     }
@@ -121,9 +121,9 @@ class File implements SessionHandlerInterface
 
     public function destroy($id)
     {
-        if(file_exists($this->path . '/' . $id) && is_writable($this->path . '/' . $id))
+        if(file_exists($this->path . DS . $id) && is_writable($this->path . DS . $id))
         {
-            return unlink($this->path . '/' . $id);
+            return unlink($this->path . DS . $id);
         }
         return false;
     }
